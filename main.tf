@@ -145,7 +145,7 @@ resource "aws_instance" "myapp-server" {
   provisioner "remote-exec" {
     inline = [ 
       "export ENV-dev",
-      "mkdir newdir"
+      "mkdir newdir2"
      ]
     
   }
