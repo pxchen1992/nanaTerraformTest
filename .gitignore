@@ -11,3 +11,6 @@
 *.tfvars.json
 
 .swp
+
+# ignore crash log 
+crash.log
